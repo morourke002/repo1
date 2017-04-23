@@ -2,6 +2,7 @@
 
 This repo is for my data science projects
 
+Link to [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) page
 Here's some saved tips for writing markdown files (via GitHub):
 
 It's very easy to make some words **bold** and other words *italic* with Markdown. You can even [link to Google!](http://google.com)
