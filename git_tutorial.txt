@@ -1,0 +1,20 @@
+1) Initializes a git repository (local) -> git init
+2) State of the current git repository, including changes (new files added/removed, but will be untracked) -> git status
+3) Start tracking files by adding to staging area -> git add <file_name>
+4) Commit changes from staging area to master branch of repo -> git commit -m "message describing change"
+5) Can also use wildcards to add many files of same type to the staging area -> git add '*.txt'
+6) Journal remembering the changes committed, in order -> git log
+7) Add a remote repository (from github.com) -> git remote add origin <git repo location>
+8) Pushing commits to remote origin (github) repo by specifying -u parameters -> git push -u origin master
+9) After changes to remote repo, bringing down changes locally -> git pull origin master
+10) Get the changes of a file from most recent commit -> git diff HEAD
+11) Diff can also be used to see changes within files that already have been staged -> git diff -staged
+12) Unstage files using reset command -> git reset <file_name>
+13) Changing files back to the previous commit ->git checkout -- <file_name>
+14) Creating a branch to separate your commits -> git branch <branch_name>
+15) Switching between branches -> git checkout <branch_name>
+16) Removing items from branch -> git rm <file_name>
+17) Committing branch changes to master -> git commit -m "with message"
+18) Merging branches (must be on branch (a) that branch (b) is merging to) -> git merge <branch_name>
+19) Deleting branches -> git branch -d <branch_name>
+20) Pushing local changes to remote -> git push
