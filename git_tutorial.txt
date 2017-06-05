@@ -1,4 +1,5 @@
 1) Initializes a git repository (local) -> git init
+    -- undo with rm -rf .git
 2) State of the current git repository, including changes (new files added/removed, but will be untracked) -> git status
 3) Start tracking files by adding to staging area -> git add <file_name>
 4) Commit changes from staging area to master branch of repo -> git commit -m "message describing change"
@@ -18,3 +19,8 @@
 18) Merging branches (must be on branch (a) that branch (b) is merging to) -> git merge <branch_name>
 19) Deleting branches -> git branch -d <branch_name>
 20) Pushing local changes to remote -> git push
+
+21) lists configuration settings -> git config --list
+    -- git config <key>
+    --  git config --global user.name "John Doe"
+    -- git config --global user.email johndoe@example.com
