@@ -50,13 +50,7 @@
 
 wrap them in backticks: `var example = true`.  
 
-12) Longer code blocks
-
-    if (isAwesome){
-      return true
-    }
-
-13) Code 'fencing' (multiple indentations)
+12) Code 'fencing' (multiple indentations)
 
 ```
 if (isAwesome){
@@ -64,7 +58,7 @@ if (isAwesome){
 }
 ```
 
-14) Syntax highlighting
+13) Syntax highlighting
 
 ```javascript
 if (isAwesome){
@@ -72,21 +66,21 @@ if (isAwesome){
 }
 ```
 
-15) Direct commenting
+14) Direct commenting
 
 with an @ symbol: Hey @morourk2 — fuck you!
 
-16) Emojis
+15) Emojis
 
 :sparkles: :camel: :boom:
 
-17) Emphasis continue with underscores (can be combined)
+16) Emphasis continue with underscores (can be combined)
 
 *This text will be italic*
 
 _This will also be italic_
 
-18) More Lists
+17) More Lists
 
 Unordered
 
@@ -102,7 +96,7 @@ Ordered
    1. Item 3a
    1. Item 3b
 
-19) Task Lists
+18) Task Lists
 
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
 - [x] list syntax required (any unordered or ordered list supported)
@@ -110,7 +104,7 @@ Ordered
 - [ ] this is an incomplete item
 If you include a task list in the first comment of an Issue, you will get a handy progress indicator in your issue list. It also works in Pull Requests!
 
-20) Tables - create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe |:
+19) Tables - create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe |:
 
 First Header | Second Header
 ------------ | -------------
@@ -118,11 +112,11 @@ Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 Would become:
 
-21) Automatic linking
+20) Automatic linking
 
 Any URL (like http://www.github.com/) will be automatically converted into a clickable link.
 
-22) Strikethrough
+21) Strikethrough
 
 Any word wrapped with two tildes (like ~~this~~) will appear crossed out.
 
