@@ -1,6 +1,8 @@
-# repo1
+create title -> '# <title_name>'
+create link -> [line
 
-This repo is for my data science projects
+
+
 
 Link to [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) page
 
