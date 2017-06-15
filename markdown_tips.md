@@ -1,58 +1,62 @@
-create title -> # <title_name>
+1) create title 
+# <title_name>
 
-create link -> [line
+2) create link
 
+[Link](https://guides.github.com/features/mastering-markdown/)
 
+3) bold words
 
+**bold**
 
-Link to [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) page
+4) itallic words
 
-Here's some saved tips for writing markdown files (via GitHub):
+*italic*
 
-It's very easy to make some words **bold** and other words *italic* with Markdown. You can even [link to Google!](http://google.com)
-
-Sometimes you want numbered lists:
+5) Numbered lists
 
 1. One
 2. Two
 3. Three
 
-Sometimes you want bullet points:
+6) Bullet points
 
 * Start a line with a star
 * Profit!
 
-Alternatively,
+7) Dashed lines
 
 - Dashes work just as well
 - And if you have sub points, put two spaces before the dash or star:
   - Like this
   - And this
   
-If you want to embed images, this is how you do it:
+8) Embed image
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![<link_text>](<image_link>)
 
-# Structured documents
-
-Sometimes it's useful to have different levels of headings to structure your documents. Start lines with a `#` to create headings. Multiple `##` in a row denote smaller heading sizes.
+9) Sub heading
 
 ### This is a third-tier heading
 
-You can use one `#` all the way up to `######` six for different heading sizes.
+#### You can use one `#` all the way up to `######` six for different heading sizes.
 
-If you'd like to quote someone, use the > character before the line:
+10) Quoting
 
-> Coffee. The finest organic suspension ever devised... I beat the Borg with it.
-> - Captain Janeway
+> THERE ARE FOUR LIGHTS!
+> - Captain Jean Luc Picard
 
-There are many different ways to style code with GitHub's markdown. If you have inline code blocks, wrap them in backticks: `var example = true`.  If you've got a longer block of code, you can indent with four spaces:
+11 ) In-line code blocks
+
+wrap them in backticks: `var example = true`.  
+
+12) Longer code blocks
 
     if (isAwesome){
       return true
     }
 
-GitHub also supports something called code fencing, which allows for multiple lines without indentation:
+13) Code 'fencing' (multiple indentations)
 
 ```
 if (isAwesome){
@@ -60,7 +64,7 @@ if (isAwesome){
 }
 ```
 
-And if you'd like to use syntax highlighting, include the language:
+14) Syntax highlighting
 
 ```javascript
 if (isAwesome){
@@ -68,32 +72,20 @@ if (isAwesome){
 }
 ```
 
-GitHub supports many extras in Markdown that help you reference and link to people. If you ever want to direct a comment at someone, you can prefix their name with an @ symbol: Hey @kneath — love your sweater!
+15) Direct commenting
 
-But I have to admit, tasks lists are my favorite:
+with an @ symbol: Hey @morourk2 — fuck you!
 
-- [x] This is a complete item
-- [ ] This is an incomplete item
+16) Emojis
 
-When you include a task list in the first comment of an Issue, you will see a helpful progress bar in your list of issues. It works in Pull Requests, too!
+:sparkles: :camel: :boom:
 
-And, of course emoji! :sparkles: :camel: :boom:
-
-Headers
-
-# This is an <h1> tag
-## This is an <h2> tag
-###### This is an <h6> tag
-Emphasis
+17) Emphasis continue with underscores (can be combined)
 
 *This text will be italic*
 _This will also be italic_
 
-**This text will be bold**
-__This will also be bold__
-
-_You **can** combine them_
-Lists
+18) More Lists
 
 Unordered
 
@@ -108,53 +100,7 @@ Ordered
 1. Item 3
    1. Item 3a
    1. Item 3b
-Images
 
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
-Links
-
-http://github.com - automatic!
-[GitHub](http://github.com)
-Blockquotes
-
-As Kanye West said:
-
-> We're living the future so
-> the present is our past.
-Inline code
-
-I think you should use an
-`<addr>` element here instead.
-
-GitHub Flavored Markdown
-GitHub.com uses its own version of the Markdown syntax that provides an additional set of useful features, many of which make it easier to work with content on GitHub.com.
-
-Note that some features of GitHub Flavored Markdown are only available in the descriptions and comments of Issues and Pull Requests. These include @mentions as well as references to SHA-1 hashes, Issues, and Pull Requests. Task Lists are also available in Gist comments and in Gist Markdown files.
-
-Syntax highlighting
-
-Here’s an example of how you can use syntax highlighting with GitHub Flavored Markdown:
-
-```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
-```
-You can also simply indent your code by four spaces:
-
-    function fancyAlert(arg) {
-      if(arg) {
-        $.facebox({div:'#foo'})
-      }
-    }
-Here’s an example of Python code without syntax highlighting:
-
-def foo():
-    if not bar:
-        return True
 Task Lists
 
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
@@ -163,9 +109,7 @@ Task Lists
 - [ ] this is an incomplete item
 If you include a task list in the first comment of an Issue, you will get a handy progress indicator in your issue list. It also works in Pull Requests!
 
-Tables
-
-You can create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe |:
+19) Tables - create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe |:
 
 First Header | Second Header
 ------------ | -------------
@@ -178,7 +122,7 @@ Content from cell 1	Content from cell 2
 Content in the first column	Content in the second column
 SHA references
 
-Any reference to a commit’s SHA-1 hash will be automatically converted into a link to that commit on GitHub.
+20) Commit Links - use SHA-1 hash will be automatically converted into a Github link
 
 16c999e8c71134401a78d4d46435517b2271d6ac
 mojombo@16c999e8c71134401a78d4d46435517b2271d6ac
@@ -190,11 +134,8 @@ Any number that refers to an Issue or Pull Request will be automatically convert
 #1
 mojombo#1
 mojombo/github-flavored-markdown#1
-Username @mentions
 
-Typing an @ symbol, followed by a username, will notify that person to come and view the comment. This is called an “@mention”, because you’re mentioning the individual. You can also @mention teams within an organization.
-
-Automatic linking for URLs
+Automatic linking
 
 Any URL (like http://www.github.com/) will be automatically converted into a clickable link.
 
