@@ -83,6 +83,7 @@ with an @ symbol: Hey @morourk2 — fuck you!
 17) Emphasis continue with underscores (can be combined)
 
 *This text will be italic*
+
 _This will also be italic_
 
 18) More Lists
@@ -101,7 +102,7 @@ Ordered
    1. Item 3a
    1. Item 3b
 
-Task Lists
+19) Task Lists
 
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
 - [x] list syntax required (any unordered or ordered list supported)
@@ -109,7 +110,7 @@ Task Lists
 - [ ] this is an incomplete item
 If you include a task list in the first comment of an Issue, you will get a handy progress indicator in your issue list. It also works in Pull Requests!
 
-19) Tables - create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe |:
+20) Tables - create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe |:
 
 First Header | Second Header
 ------------ | -------------
@@ -117,29 +118,11 @@ Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 Would become:
 
-First Header	Second Header
-Content from cell 1	Content from cell 2
-Content in the first column	Content in the second column
-SHA references
-
-20) Commit Links - use SHA-1 hash will be automatically converted into a Github link
-
-16c999e8c71134401a78d4d46435517b2271d6ac
-mojombo@16c999e8c71134401a78d4d46435517b2271d6ac
-mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac
-Issue references within a repository
-
-Any number that refers to an Issue or Pull Request will be automatically converted into a link.
-
-#1
-mojombo#1
-mojombo/github-flavored-markdown#1
-
-Automatic linking
+21) Automatic linking
 
 Any URL (like http://www.github.com/) will be automatically converted into a clickable link.
 
-Strikethrough
+22) Strikethrough
 
 Any word wrapped with two tildes (like ~~this~~) will appear crossed out.
 
